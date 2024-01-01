@@ -318,7 +318,7 @@ button:focus,
 
 .work {
     color: var(--text-light);
-    background-color: var(--background-grid);
+    background-color: var(--background-dark);
     border-radius: var(--corners);
     padding-bottom: 10px;
     padding-top: 5px;
