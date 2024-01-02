@@ -207,6 +207,7 @@ button:focus,
 
       }
 
+
       .flex-buffer {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
@@ -262,7 +263,7 @@ button:focus,
 
 .profile {
     width: 100%;
-    margin: 1em auto;
+    margin: auto;
     background-color: var(--text-color);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -324,6 +325,7 @@ button:focus,
     border-radius: var(--corners);
     padding-bottom: 10px;
     padding-top: 5px;
+    margin: auto;
 }
 
   /* start grid fallback */
