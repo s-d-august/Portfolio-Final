@@ -42,7 +42,7 @@ body {
   /* FONTS */
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
-  font-size: 20;
+  font-size: 16px;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -95,6 +95,7 @@ h3 {
 
 a {
   color: var(--primary-color);
+  font-size: 18px;
 }
 
 a:hover,
@@ -265,6 +266,7 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
+  border-radius: var(--corners);
 }
 /* end grid fallback */
 
