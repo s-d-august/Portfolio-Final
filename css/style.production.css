@@ -103,6 +103,7 @@ h3 {
 
 a {
   color: var(--primary-color);
+  font-size: 18px;
 }
 
 a:hover,
