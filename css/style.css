@@ -34,8 +34,8 @@
 }
 
 @font-face {
-  font-family: "inspira", serif;
-  src: url(../files/inspira-webfont.woff2);
+  font-family: inspira;
+  src: url("../files/inspira-webfont.woff");
 }
 
 body {
