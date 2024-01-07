@@ -22,6 +22,9 @@
   --rose1: #fbadd1;
   --rose2: #d8a8ff;
 
+  --blink-open: url(..//img/profile__portrait.png);
+  --blink-shut: url(..//img/profile__portrait-blink.png);
+
 }
 
 * {
@@ -204,10 +207,25 @@ button:focus,
 }
 
 .profile__portrait {
-  height: auto;
-  width: 250px;
-  border-radius: 50%;
   margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__portrait::before {
+  content: '';
+  display: block;
+  position: relative;
+  animation: blink 7s linear infinite;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-image: var(--blink-open);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
 }
 
 .profile__introduction-div {
@@ -318,6 +336,44 @@ button:focus,
     align-items: center;
   }
 }
+
+/* PORTRAIT BLINK ANIMATION */
+
+@keyframes blink {
+0% {
+  background-image: var(--blink-open);
+}
+
+1% {
+  background-image: var(--blink-shut);
+}
+
+2% {
+  background-image: var(--blink-open);
+}
+
+50% {
+  background-image: var(--blink-open);
+}
+
+51% {
+  background-image: var(--blink-shut);
+}
+
+52% {
+  background-image: var(--blink-open);
+}
+
+53% {
+  background-image: var(--blink-shut);
+}
+
+54% {
+  background-image: var(--blink-open);
+}
+
+}
+
 
 /* TRICOLOR ROSE ANIMATION */
 
