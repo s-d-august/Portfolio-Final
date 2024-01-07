@@ -486,6 +486,8 @@ button:focus,
           animation-iteration-count: infinite;
   -webkit-animation-duration: 3s, 2s;
           animation-duration: 3s, 2s;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
 }
 
 #rose {
