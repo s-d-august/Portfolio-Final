@@ -187,8 +187,9 @@ button:focus,
 }
 
 .coin {
-  height: var(--coin-size);
-  width: var(--coin-size);
+  height: 50px;
+  width: 50px;
+  margin: 2.5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,8 +200,8 @@ button:focus,
   content: "";
   display: block;
   position: relative;
-  height: var(--coin-size);
-  width: var(--coin-size);
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background-color: var(--face);
   animation: spin 15s alternate infinite;
@@ -210,10 +211,6 @@ button:focus,
   background-blend-mode: overlay;
   filter: saturate(0);
   animation-delay: -0.5s;
-}
-
-.coin .page-header__item {
-  size: 50%;
 }
 
 /* footer */
@@ -507,559 +504,559 @@ button:focus,
 
 @keyframes spin {
   0% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   6.249% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   6.251% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   12.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   16.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   17.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   21.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   25.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   25.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   30% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   33.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   34.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   38% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   41.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   41.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   45.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   48.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   49.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   52.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   55.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   55.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   59% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   61.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   62.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   65% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   67.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   67.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   70.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   72.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   73.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   75.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   77.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   77.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   80% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   81.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   82.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   84% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   85.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   85.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   87.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   88.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   89.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   90.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   91.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   91.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   93% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   93.999% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   94.001% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   95% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   95.499% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   95.501% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   96% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   96.499% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   96.501% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   97% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   97.249% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   97.251% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   97.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   97.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   97.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   98% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   98.249% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   98.251% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   98.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   98.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   98.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   99% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
     background-color: var(--face);
   }
   99.249% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--tail);
   }
   99.251% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--head);
   }
   99.5% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--head);
     background-color: var(--face);
   }
   99.749% {
-    width: 0.1rem;
-    box-shadow: 0.05rem 0 0 var(--side), 0.1rem 0 0 var(--side), 0.15rem 0 0 var(--side), 0.2rem 0 0 var(--side), 0.25rem 0 0 var(--side), 0.3rem 0 0 var(--side), 0.35rem 0 0 var(--side), 0.4rem 0 0 var(--side), 0.45rem 0 0 var(--side), 0.5rem 0 0 var(--side), 0.55rem 0 0 var(--side), 0.6rem 0 0 var(--side), 0.65rem 0 0 var(--side), 0.7rem 0 0 var(--side), 0.75rem 0 0 var(--side);
-    transform: translateX(-0.375rem);
+    width: 0.5px;
+    box-shadow: 0.25px 0 0 var(--side), 0.5px 0 0 var(--side), 0.7500750075px 0 0 var(--side), 1px 0 0 var(--side), 1.25px 0 0 var(--side), 1.500150015px 0 0 var(--side), 1.7500875044px 0 0 var(--side), 2px 0 0 var(--side), 2.2502250225px 0 0 var(--side), 2.5px 0 0 var(--side), 2.7502750275px 0 0 var(--side), 3.003003003px 0 0 var(--side), 3.2530904359px 0 0 var(--side), 3.5014005602px 0 0 var(--side), 3.7509377344px 0 0 var(--side);
+    transform: translateX(-1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: linear;
     background-image: var(--head);
   }
   99.751% {
     width: 0.1rem;
-    box-shadow: -0.05rem 0 0 var(--side), -0.1rem 0 0 var(--side), -0.15rem 0 0 var(--side), -0.2rem 0 0 var(--side), -0.25rem 0 0 var(--side), -0.3rem 0 0 var(--side), -0.35rem 0 0 var(--side), -0.4rem 0 0 var(--side), -0.45rem 0 0 var(--side), -0.5rem 0 0 var(--side), -0.55rem 0 0 var(--side), -0.6rem 0 0 var(--side), -0.65rem 0 0 var(--side), -0.7rem 0 0 var(--side), -0.75rem 0 0 var(--side);
-    transform: translateX(0.375rem);
+    box-shadow: -0.25px 0 0 var(--side), -0.5px 0 0 var(--side), -0.7500750075px 0 0 var(--side), -1px 0 0 var(--side), -1.25px 0 0 var(--side), -1.500150015px 0 0 var(--side), -1.7500875044px 0 0 var(--side), -2px 0 0 var(--side), -2.2502250225px 0 0 var(--side), -2.5px 0 0 var(--side), -2.7502750275px 0 0 var(--side), -3.003003003px 0 0 var(--side), -3.2530904359px 0 0 var(--side), -3.5014005602px 0 0 var(--side), -3.7509377344px 0 0 var(--side);
+    transform: translateX(1.8754688672px);
     background-color: var(--lowlight);
     animation-timing-function: ease-out;
     background-image: var(--tail);
   }
   100% {
-    width: var(--coin-size);
+    width: 50px;
     box-shadow: 0 0 0 var(--side-dark);
     animation-timing-function: ease-in;
     background-image: var(--tail);
